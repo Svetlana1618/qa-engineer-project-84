@@ -47,8 +47,9 @@
   prerequisites: |
     Открыта страница https://hexlet-products-store.vercel.app/ 
   test-data: |
-    Samsung
+    Huawei P30
   steps:
-    - Ставим галочку в чек-боксе напротив Samsung
+    - Кликаем по карточке товара
+    - Переходим на страницу с товаром https://hexlet-products-store.vercel.app/products/5 
   expected-result: |
-    Пользователь видит на странице только товары производителя Samsung.
+    Пользователь видит на странице карточки товара: название товара, полное описани товара, цену, изображения.
